@@ -23,11 +23,11 @@ def func(a):
 print('Возврат значения: ', func(10))
 
 
-def func_no_value(a=10, b=15):
-    print('Функция без возвращаемого значения: ', a + b)
+def func_no_value():
+    pass
 
 
-func_no_value()
+print(func_no_value())
 
 
 # 3.Написать любую lambda функцию
